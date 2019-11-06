@@ -20,6 +20,7 @@ public class JwtFilter extends BasicHttpAuthenticationFilter {
      * @param mappedValue
      * @return
      */
+
     @Override
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
         //判断请求的请求头是否带上 "Authorization"
